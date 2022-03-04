@@ -16,4 +16,4 @@ The technologies used and HTML, CSS, Bootstrap and Javascript.
 ## Contacts
 ymeldamonari@gmail.com
 ## License
-MIT License
+MIT License Copyright (c) 2022 
