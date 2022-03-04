@@ -1,5 +1,5 @@
 var bday;
-var name
+var name;
 
 //change this line and assign this variable to the value you'll get from the user's input(DOB input)
 bday = window.prompt("When is your birthday (YYYY-MM-DD)?","");
@@ -8,7 +8,7 @@ bday = window.prompt("When is your birthday (YYYY-MM-DD)?","");
 var bdayArray = bday.split('-');
 
 //change this line and assign this variable to the value you'll get from the user's input(Gender drop down)-should be either male or female
- var gender="M";
+var gender="M";
  
  
 //validation to check if the date input is in the correct format
@@ -24,36 +24,36 @@ if(bdayArray.length !== 3){
        
        //Proceed if the date input is correct
     }else{
-  var year = bdayArray[0];
-  var cc;
-  cc = year.substring(0,2);
-  document.write("getcc is "+cc)
-   
-  var yy;
-  yy = year.substring(2)
-  document.write("getyy is "+yy)
-   
-  var mm;
-  mm = bdayArray[1];
-  var dd;
-  dd = bdayArray[2];
+        var year = bdayArray[0];
+        var cc;
+        cc = year.substring(0,2);
+        document.write("getcc is "+cc)
+        
+        var yy;
+        yy = year.substring(2)
+        document.write("getyy is "+yy)
+        
+        var mm;
+        mm = bdayArray[1];
+        var dd;
+        dd = bdayArray[2];
    
 
-  var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];   
+var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];   
   
-        var timeofBirth = new Date(            
-            parseInt(bdayArray[0]),
-            parseInt(bdayArray[1]) - 1, //month starts from 0
-            parseInt(bdayArray[2])
+var timeofBirth = new Date(            
+        parseInt(bdayArray[0]),
+        parseInt(bdayArray[1]) - 1, //month starts from 0
+        parseInt(bdayArray[2])
         );        
-        var dayOfBirth = timeofBirth.getDay();  
-         document.write("dayOfBirth is "+dayOfBirth);
+var dayOfBirth = timeofBirth.getDay();  
+    document.write("dayOfBirth is "+dayOfBirth);
 
-        var dayName= days[dayOfBirth];
-       document.write("You were born on "+dayName);
+var dayName= days[dayOfBirth];
+    document.write("You were born on "+dayName);
        
        if(gender === "M"){
-    const malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+const malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     console.log("Current day is "+dayOfBirth)
         name = malenames[dayOfBirth];
         console.log("name is "+name);
