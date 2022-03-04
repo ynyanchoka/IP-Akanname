@@ -21,10 +21,16 @@
                 <p>The Akans also have family names which are often taken from the father's side, but the mother's side may also be taken. This often happens when the mother only has sisters, and the name would thus be lost if nobody takes her name.</p> 
                 <p>Fill in the form to find out your Akan name!</p>                    
             </div>
-        <div class="fill">
+        
         <div class="form">
+            <label for="dob">Date of Birth</label><br>
+            <input type="text" id="dob" name="dob"><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
                 
-            <p>Date of Birth: <input TYPE="text" NAME="day" SIZE="2"> </p>
+            <!-- <p>Date of Birth: <input TYPE="text" NAME="day" SIZE="2"> </p>
             <p>Month of Birth: <input TYPE="text" NAME="month" SIZE="2"> </p>
             <p>Year of Birth: <input TYPE="text" NAME="year" SIZE="2"> </p>    
             <h6><strong>GENDER</strong></h6>
@@ -33,9 +39,10 @@
             </div> 
             <p><input type="button" value="Female" ONCLICK="tomm(this.form)"></p>
             <p>Akan name: <input TYPE="text" NAME="result2" SIZE="18"> </p>
-          </div>  
+          </div>   -->
         </div>
-    </div>        
+        <button onclick="submit()">Submit</button>
+        </div>        
     </div>
 </body>
 </html>
