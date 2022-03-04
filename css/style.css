@@ -7,12 +7,14 @@ body {
 }
 h1{
     color:black;
+    font-weight: 900;
 }
 
 h2 { 
     font-style: italic;
     font-size: medium;
     color: black;
+    font-weight: 900;
 }
 .card{
     background-color: #FBEC5D;
