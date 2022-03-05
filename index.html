@@ -23,34 +23,26 @@
                 <p>To find more about the Akan names click <a href="https://en.wikipedia.org/wiki/Akan_names">here</a></p>
                 <p><em>Fill in the form to find out your Akan name!</em></p>                    
             </div>
-        <h3 id="akan-name"></h3>
+        <!-- <h3 id="akan-name"></h3> -->
             
-        <div class="fill-form">
-            <label for="birthday">Date of Birth
-            <input name="birthday" id="birthday" type="date"/> 
-            </label>
-            <label for="gender">Gender
-            <select name="gender" id="gender">
-                <option value="female">Female</option>
-                <option value="male">Male</option>
-            </select>
-            </label>
-            <input type="submit" value="Submit">
-           
-            <!-- <label for="dob">Date of Birth</label><br>
+        <div id="fill-form">
+                      
+            <label for="dob">Date of Birth</label><br>
             <input type="text" placeholder="YYYY-MM-DD" id="dob" name="dob"><br>
-            <input type="radio" id="male" name="gender" value="male">
+            <input type="radio" id="male" name="gender" value="M">
             <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br> -->
+            <input type="radio" id="female" name="gender" value="F">
+            <label for="female">Female</label><br>
                             
         </div>
-        <!-- <div class="button">
-            <button onclick="submitDate()">Submit</button>
-        </div> -->
+        <div class="button">
+        
+            <button type="button" onclick="submitDate(); return false;">Submit</button>
+        </div>
+        
         </div>        
     </div>
-    <script src="js/js.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>

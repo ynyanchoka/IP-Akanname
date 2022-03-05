@@ -47,3 +47,14 @@ form.addEventListener('submit', function (e){
   }
 
 })
+
+{/* <label for="birthday">Date of Birth
+<input name="birthday" id="birthday" type="date"/> 
+</label>
+<label for="gender">Gender
+<select name="gender" id="gender">
+    <option value="female">Female</option>
+    <option value="male">Male</option>
+</select>
+</label>
+<input type="submit" value="Submit"> */}
