@@ -12,14 +12,14 @@ h1{
 
 h2 { 
     font-style: italic;
-    font-size: medium;
+    font-size:large;
     color: black;
-    font-weight: 900;
+    font-weight: 1000;
 }
 .card{
     background-color: #FBEC5D;
 }
-.form{
+.fill-form{
     margin-left: 20px;
 }
 .form input[type ="text"],select, textarea{
@@ -43,11 +43,14 @@ cursor: pointer;
 }
 .button{
     color: white;
-    border-style: none;
+    border-style:none ;
     height: 50px;
-    width: 100px;
+    width: 250px;
     font: bold15px arial,sans-serif;
     text-shadow: none;
     padding: 16px 32px;
-    cursor: pointer;
+    
+}
+#akan-name{
+    font-size: large;
 }

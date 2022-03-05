@@ -1,3 +1,5 @@
+
+
 var bday;
 var name;
 
@@ -67,8 +69,11 @@ const malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
     }
 }
 function submitDate() {
-    var dob = document.getElementById("dob").value;
+    var dob = document.getElementById("form").value;
     var gender= document.querySelector('input[name=gender]:checked').value;
 console.log("Akan name is" +name );
     
 }
+form.addEventListener('submit', function (e){
+    e.preventDefault()
+  
