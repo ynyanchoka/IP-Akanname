@@ -5,10 +5,7 @@ function submitDate() {
     bday = document.getElementById("dob").value;
     console.log("bday is"+bday);
     var gender= document.querySelector('input[name=gender]:checked').value;
-
-   
-
-
+ 
     bdayArray = bday.split('-');
 
     if(bdayArray.length !== 3){
@@ -29,14 +26,12 @@ function submitDate() {
                         
             var yy;
             yy = year.substring(2)
-          
-            
+                      
             var mm;
             mm = bdayArray[1];
             var dd;
             dd = bdayArray[2];
     
-
     var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];   
     
     var timeofBirth = new Date(            
@@ -45,8 +40,7 @@ function submitDate() {
             parseInt(bdayArray[2])
             );        
     var dayOfBirth = timeofBirth.getDay();  
-        
-
+      
     var dayName= days[dayOfBirth];
         
         if(gender === "M"){
