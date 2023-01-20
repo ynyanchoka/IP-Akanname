@@ -1,13 +1,19 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 body {
     background-image: url(../images/flagghana.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 h1{
     color:black;
     font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
 }
 
 h2 { 
@@ -18,6 +24,13 @@ h2 {
 }
 .card{
     background-color: #FBEC5D;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 .fill-form{
     margin-left: 22px;
@@ -30,5 +43,6 @@ h2 {
     font: bold15px arial,sans-serif;
     text-shadow: none;
     padding: 16px 32px;
+    border-radius: 12px;
     
 }
